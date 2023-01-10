@@ -1,0 +1,190 @@
+/*
+Theme Name: fbfp
+Theme URI: http://localhost:8000/fbfp/
+Author: Elanor Filoque
+Author URI: http://localhost:8000/
+Description: Theme principal pour fbfp production
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body >*{
+  overflow: hidden;
+    
+}
+.body{
+  height: 100vh !important;
+
+}
+
+
+  
+body,
+html {
+  height: fit-content;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Myriad Pro', sans-serif;
+  background-color: #212121;
+  color: white;
+}
+
+.container {
+  margin: 0 20vw;
+}
+
+/* menu de navigation*/
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+
+.bar .menu {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 1.5rem;
+  height: 16vh;
+  padding: 2vh 0;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.bar .menu a {
+  padding: 0 2vw;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.bar .custom-logo {
+  height: 100%;
+  max-width: 90px;
+  margin: auto 0px;
+}
+
+.base p {
+  text-align: center;
+}
+
+
+.bar .menu li {
+  margin: auto 0;
+}
+  
+.menu li:nth-child(1) {
+  background-image: url(http://localhost/fbfp/wp-content/uploads/2023/01/logo-fbfp-fond-noir-e1673191317745.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+}
+
+.menu li:nth-child(1) a {
+  opacity: 0;
+  
+}
+
+.menu li a:hover {
+  color: #fece15;
+}
+
+.navres {
+display: none;
+}
+
+
+@media (max-width: 900px){
+
+  .bar {
+    display: none;
+  }
+
+    /* menu hamburger*/
+  .navres {
+    display: unset;
+    height: 100%;
+    position: fixed;
+    z-index: 2  ;
+    top: 0;
+    left: -400px;
+    background-color: #212121;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    width: 30vw;
+    align-items: center;
+    
+  }
+
+  .navres ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* liens hamburger */
+  .navres a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    transition: 0.3s;
+    text-align: center;
+  }
+
+  .navres a:hover {
+    color: #fece15;
+  }
+
+  /* Active class */
+  .navres.active {
+    left: 0;
+  }
+
+  .menu-burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  .menu-burger-icon {
+  top: 1rem;
+  left : 1rem;
+  position: fixed;
+  z-index: 3;
+  }
+  
+  .menu-burger-icon:hover > * {
+    background-color: #fece15;
+    transition: 0.4s;
+  }
+
+}
+
+@media (max-width: 720px) {
+   .navres {
+      width: 50vw;
+  }
+
+    .navres a {
+    text-align: center;
+  }
+
+}

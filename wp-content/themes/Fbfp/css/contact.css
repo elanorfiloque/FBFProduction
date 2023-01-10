@@ -1,0 +1,94 @@
+.contact figure{
+    margin: 10% 0;
+}
+
+.contact iframe {
+    border-radius: 50px;
+}
+
+.contact .col-map p {
+    font-size: 2rem;
+    margin: 10% 0;
+}
+
+.formulaire p{
+    padding:0 0 1rem 0;
+}
+
+.contact .wp-block-columns{
+    margin: 5rem 0;
+}
+
+.formulaire label{
+    visibility: hidden;
+}
+
+.contact-img  img{
+    border-radius: 50px;
+}
+
+.contact form input {
+    border-radius: 10px;
+    height: 50px;
+    width:70%;
+    background-color: #212121;
+    font-size: 2rem;
+    resize: none;
+    border: 2px solid white;
+    color : white;
+    text-align: center;
+    visibility: visible;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.contact form input:hover {
+    border: 2px solid #fece15;
+    transition: 0.4s;
+}
+
+.contact form textarea:hover{
+    border: 2px solid #fece15;
+    transition: 0.4s;
+}
+
+.contact textarea {
+    height: 100px;
+    border-radius: 10px;
+    height: 100px;
+    width:70%;
+    background-color: #212121;
+    font-size: 2rem;
+    resize: none;
+    border: 2px solid white;
+    color : white;
+    text-align: center;
+    visibility: visible;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.formulaire input.wpcf7-submit {
+    width:40%;
+    background-color: #fece15;
+    border-radius: 50px;
+    border:  2px solid #fece15;
+    margin-top: 2rem;
+    color: #212121;
+}
+
+.formulaire input.wpcf7-submit:hover {
+    background-color: #212121;
+    border-color: white;
+    color: white;
+    transition: 0.4s;
+}
+
+
+.wpcf7-spinner {
+    display: none;
+}
+
+@media (max-width: 780px){
+    .contact-img img{
+       display: none;
+    }
+}

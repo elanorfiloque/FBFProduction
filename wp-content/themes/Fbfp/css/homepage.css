@@ -1,0 +1,139 @@
+/*
+Theme Name: Fbfp
+Template Name: homepage
+Template: fbfp
+Description: theme enfant Fbfp
+*/
+
+h1 {
+  visibility: hidden;
+  height: 0;
+}
+
+h2{
+  font-size: 5rem;
+  text-align: center;
+  font-weight: inherit;
+  margin: 2rem 0 0 0;
+}
+
+.bienvenue h2{
+  margin: none;
+}
+
+h5 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h6{
+  font-size: 2rem;
+  font-weight: initial;
+  text-align: center;
+  padding: 0 0 2rem 0;
+}
+
+p {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.6rem;
+}
+
+
+.video.wp-block-cover {
+  position: relative;
+  top: -16vh;
+}
+
+#grille figure{
+  height:100%;
+}
+
+
+#grille .wp-block-columns {
+  gap : 5%;
+  margin-top: 5rem;
+}
+
+#grille .wp-block-image img{
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#video .wp-block-cover .is-light video {
+  height: 75vh;
+}
+
+.wp-block-buttons > .wp-block-button {
+  margin: 1rem auto 2rem auto;
+}
+
+.wp-block-button__link{
+  background-color: black;
+  font-size : 1.6rem;
+}
+
+.wp-block-button__link:hover {
+  background-color: #212121;
+  color : #fece15;
+  transition: 0.4s;
+}
+
+.equipe .wp-block-group{
+  margin: 2rem 0;
+}
+
+.equipe figure{
+  height: 180px;
+  width: 180px;
+  margin: auto auto 6rem auto;
+}
+
+.equipe img {
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+
+.equipe figure figcaption{
+  font-size:1.4rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+
+.service-col2 > div:nth-child(1)  {
+  margin: 0 0 0 17.5%;
+}
+
+.service-col2 > div:nth-child(2)  {
+  margin: 0 17.5% 0 0;
+}
+
+#grille .figure {
+  max-height: 200px;
+}
+
+
+@media (max-width: 1200px){
+
+  .equipe-photo > div > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 800px){
+
+  .equipe-photo > div > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+}

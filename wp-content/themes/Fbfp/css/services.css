@@ -1,0 +1,33 @@
+/*
+Theme Name: Fbfp
+Template Name: services
+Template: fbfp
+Description: theme enfant Fbfp
+*/
+
+
+.video.txt-after h2 {
+    font-size:4rem !important;;
+} 
+
+.video.txt-after h2::after {
+    content: '';
+    background-color: #fece15;
+    display : block;
+    width: 60px;
+    height:6px;
+    border-radius: 3px;
+    position: relative;
+    left:385vh;
+    top: -0.6rem;
+}
+
+.services .service-col {
+    margin: auto;
+}
+
+.services >div >div {
+    gap:10%;
+}
+
+

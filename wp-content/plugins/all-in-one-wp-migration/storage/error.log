@@ -1,0 +1,6 @@
+Jan 10 2023 00:57:04
+{"Number":2,"Message":"rmdir(C:\\wamp64\\www\\fbfp\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\s7eqwmu9ray9): Directory not empty","File":"C:\\wamp64\\www\\fbfp\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":72}
+
+Jan 10 2023 00:57:06
+{"Number":2,"Message":"filesize(): stat failed for C:\\wamp64\\www\\fbfp\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\s7eqwmu9ray9\\localhost-fbfp-20230110-005650-2ulmrg.wpress","File":"C:\\wamp64\\www\\fbfp\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":231}
+
