@@ -13,6 +13,7 @@
 
 .real .wp-block-columns{
     margin:0 !important;
+    padding: 0 !important;
 }
 
 .real figure {
@@ -43,5 +44,10 @@
         max-width: 100%;
         height: 440px;
         margin: 0 5%;
+    }
+
+    .real .wp-block-column {
+        height: 100%;
+        margin: 2rem 0;
     }
 }

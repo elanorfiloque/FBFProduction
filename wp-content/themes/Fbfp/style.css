@@ -187,4 +187,8 @@ display: none;
     text-align: center;
   }
 
+  .container{
+    margin: 0 10vw;
+  }
+
 }
