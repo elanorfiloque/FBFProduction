@@ -1,0 +1,213 @@
+# Translation of Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-17 10:40:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release)\n"
+
+#: templates/components/notices/thanks.php:33
+msgid "Add plugin review"
+msgstr "Add a plugin review"
+
+#: templates/components/notices/thanks.php:38
+#: templates/components/notices/upgrade.php:38
+msgid "Hide, do not show again"
+msgstr "Hide and do not show again"
+
+#: src/Error/Notice/RewritesCachedNotice.php:24
+msgid "Your server uses the cache for HTTP requests. The rules from .htaccess file or from Nginx configuration are not executed every time when the image is loaded, but the last redirect from cache is performed. With each request to image, your server should execute the rules from .htaccess file or from Nginx configuration. Now it only does this the first time and then uses cache. This means that if your server redirected image to WebP format the first time, it does so on every request. It should check the rules from .htaccess file or from Nginx configuration each time during request to image and redirect only when the conditions are met."
+msgstr "Your server uses the cache for HTTP requests. The rules from the .htaccess file or from the Nginx configuration are not executed every time the image is loaded, but the last redirect from the cache is performed. With each request to the image, your server should execute the rules from the .htaccess file or from the Nginx configuration. Now it only does this the first time and then uses the cache. This means that if your server redirected the image to the WebP format the first time, it does so on every request. It should check the rules from the .htaccess file or from the Nginx configuration each time during the request to the image and redirect only when the conditions are met."
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag, %3$s: errors
+#. codes
+#: templates/components/widgets/errors.php:32
+msgid "%1$sError codes:%2$s %3$s"
+msgstr "%1$sError codes:%2$s %3$s"
+
+#: src/Error/Notice/PassthruExecutionNotice.php:33
+#: src/Error/Notice/RewritesCachedNotice.php:25
+#: src/Error/Notice/RewritesNotExecutedNotice.php:51
+#: src/Error/Notice/RewritesNotWorkingNotice.php:30
+msgid "In this case, please contact your server administrator."
+msgstr "In this case, please contact your server administrator."
+
+#: src/Error/Notice/SettingsIncorrectNotice.php:24
+msgid "The plugin settings are incorrect! Check them out and save them again. Please remember that you must have at least one option selected for each field."
+msgstr "The plugin settings are incorrect! Check them out and save them again. Please remember that you must have at least one option selected for each field."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:84
+msgid "%1$sSettings%2$s"
+msgstr "%1$sSettings%2$s"
+
+#. translators: %s: anchor tag
+#: src/Error/Notice/PassthruExecutionNotice.php:29
+msgid "Execution of the PHP file from path \"%s\" is blocked on your server, or access to this file is blocked. Add an exception and enable this file to be executed via HTTP request. To do this, check the security plugin settings (if you are using) or the security settings of your server."
+msgstr "Execution of the PHP file from the \"%s\" path is blocked on your server, or access to this file is blocked. Add an exception and enable this file to be executed via an HTTP request. To do this, check the security plugin settings (if you are using them) or the security settings of your server."
+
+#: src/Settings/Option/LoaderTypeOption.php:40
+msgid "Image loading mode"
+msgstr "Image loading mode"
+
+#: src/Settings/Option/LoaderTypeOption.php:50
+msgid "By changing image loading mode it allows you to bypass some server configuration problems."
+msgstr "By changing the image loading mode, it allows you to bypass some server configuration problems."
+
+#: src/Settings/Option/LoaderTypeOption.php:71
+msgid "via .htaccess"
+msgstr "via .htaccess"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:75
+msgid "%s (without rewrites in .htaccess files or Nginx configuration)"
+msgstr "%s (without rewrites in .htaccess files or the Nginx configuration)"
+
+#: templates/components/widgets/regenerate.php:180
+msgid "Please flush cache if you use caching plugin or caching via hosting."
+msgstr "Please flush the cache if you use a caching plugin or caching via hosting."
+
+#: templates/components/widgets/about.php:24
+msgid "The plugin in default loading mode (via .htaccess) does not change file URLs, so there are no problems with saving the page to the cache and the page generation time does not increase."
+msgstr "The plugin in default loading mode (via .htaccess) does not change file URLs, so there are no problems with saving the page to the cache and the page generation time does not increase."
+
+#: src/Service/DeactivationModalGenerator.php:71
+msgid "I have \"Server configuration error\" in plugin settings"
+msgstr "I have a \"Server configuration error\" in the plugin settings"
+
+#: src/Service/DeactivationModalGenerator.php:88
+msgid "What is your error? Have you been looking for solution to this issue?"
+msgstr "What is your error? Have you been looking for a solution to this issue?"
+
+#: src/Service/DeactivationModalGenerator.php:111
+msgid "This plugin broke my website"
+msgstr "This plugin broke my website"
+
+#: src/Service/DeactivationModalGenerator.php:125
+msgid "What exactly happened?"
+msgstr "What exactly happened?"
+
+#: src/Service/DeactivationModalGenerator.php:132
+msgid "I found a better plugin"
+msgstr "I have found a better plugin"
+
+#: src/Service/DeactivationModalGenerator.php:134
+msgid "What is name of this plugin? Why is it better?"
+msgstr "What is the name of this plugin? Why is it better?"
+
+#: src/Service/DeactivationModalGenerator.php:141
+msgid "This is a temporary deactivation"
+msgstr "This is a temporary deactivation"
+
+#: src/Service/DeactivationModalGenerator.php:150
+msgid "Other reason"
+msgstr "Other reason"
+
+#: src/Service/DeactivationModalGenerator.php:152
+msgid "What is reason? What can we improve for you?"
+msgstr "What is the reason? What can we improve for you?"
+
+#: src/Service/DeactivationModalGenerator.php:61
+msgid "Submit and Deactivate"
+msgstr "Submit and Deactivate"
+
+#: src/Service/DeactivationModalGenerator.php:62
+msgid "Skip and Deactivate"
+msgstr "Skip and Deactivate"
+
+#: templates/components/widgets/regenerate.php:198
+msgid "Additional informations about process:"
+msgstr "Additional information about the process:"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:52
+msgid "Options allow you to enable new functionalities that will increase capabilities of plugin"
+msgstr "Options allow you to enable new functionalities that will increase the capabilities of the plugin"
+
+#. translators: %1$s: filter name, %2$s: server path, %3$s: open anchor tag,
+#. %4$s: close anchor tag
+#: src/Error/Notice/PathUploadsUnavailableNotice.php:26
+msgid "The path for /uploads files does not exist (function is_dir() returns false). Use filter %1$s to set the correct path. The current using path is: %2$s. Please read %3$sthe plugin FAQ%4$s to learn more."
+msgstr "The path for /uploads files does not exist (function is_dir() returns false). Use the filter %1$s to set the correct path. The current path is: %2$s. Please read %3$sthe plugin FAQs%4$s to learn more."
+
+#. translators: %1$s: filter name, %2$s: server path, %3$s: open anchor tag,
+#. %4$s: close anchor tag
+#: src/Error/Notice/PathWebpNotWritableNotice.php:26
+msgid "The path for saving converted WebP files does not exist and cannot be created (function is_writable() returns false). Use filter %1$s to set the correct path. The current using path is: %2$s. Please read %3$sthe plugin FAQ%4$s to learn more."
+msgstr "The path for saving converted WebP files does not exist and cannot be created (function is_writable() returns false). Use the filter %1$s to set the correct path. The current path is: %2$s. Please read %3$sthe plugin FAQs%4$s to learn more."
+
+#. translators: %1$s: server path
+#: src/Error/Notice/PathHtaccessNotWritableNotice.php:26
+msgid "Unable to create or edit .htaccess file (function is_readable() or is_writable() returns false). Change directory permissions. The current using path of file is: %1$s. Please contact your server administrator."
+msgstr "Unable to create or edit .htaccess file (function is_readable() or is_writable() returns false). Change directory permissions. The current path of the file is: %1$s. Please contact your server administrator."
+
+#. translators: %1$s: filter name, %2$s: server path
+#: src/Error/Notice/PathWebpDuplicatedNotice.php:26
+msgid "The paths for /uploads files and for saving converted WebP files are the same. Change them using filter %1$s. The current path for them is: %2$s."
+msgstr "The paths for /uploads files and for saving converted WebP files are the same. Change them using the filter %1$s. The current path for them is: %2$s."
+
+#: templates/components/widgets/errors.php:15
+msgid "Server configuration error"
+msgstr "Server configuration error"
+
+#. translators: %1$s: anchor tag, %2$s: anchor tag, %3$s: anchor tag
+#: src/Error/Notice/RestApiDisabledNotice.php:26
+msgid "The REST API on your website is not available. Please verify this and try again. Pay special attention to the filters: %1$s, %2$s and %3$s."
+msgstr "The REST API on your website is not available. Please verify this and try again. Pay special attention to the filters: %1$s, %2$s, and %3$s."
+
+#: templates/components/widgets/support.php:13
+msgid "We are waiting for your message"
+msgstr "We are waiting for your message"
+
+#. translators: %s progress value
+#: src/Service/WpCliManager.php:135
+#: templates/components/widgets/regenerate.php:154
+msgid "Saving the weight of your images: %s"
+msgstr "Saving the weight of your images: %s"
+
+#: src/Service/WpCliManager.php:128
+#: templates/components/widgets/regenerate.php:179
+msgid "The process was completed successfully. Your images have been converted!"
+msgstr "The process was completed successfully. Your images have been converted!"
+
+#: templates/components/widgets/regenerate.php:22
+msgid "An error occurred while connecting to REST API. Please try again."
+msgstr "An error occurred while connecting to the REST API. Please try again."
+
+#: templates/components/widgets/options.php:44
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: templates/views/settings.php:46
+msgid "Changes were successfully saved!"
+msgstr "Changes were successfully saved!"
+
+#: src/Settings/Option/ConversionMethodOption.php:57
+msgid "Conversion method"
+msgstr "Conversion method"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:70
+msgid "%s (recommended)"
+msgstr "%s (recommended)"
+
+#: src/Service/DeactivationModalGenerator.php:118
+#: src/Settings/Option/ExtraFeaturesOption.php:45
+msgid "Extra features"
+msgstr "Extra features"
+
+#: src/Settings/Option/SupportedDirectoriesOption.php:46
+msgid "Files from these directories will be converted to output formats."
+msgstr "Files from these directories will be converted to output formats."
+
+#: templates/components/notices/welcome.php:20
+msgid "Thank you for installing our plugin Converter for Media!"
+msgstr "Thank you for installing our plugin Converter for Media!"
+
+#: templates/components/notices/thanks.php:19
+msgid "Thank you for using our plugin Converter for Media!"
+msgstr "Thank you for using our plugin Converter for Media!"

@@ -1,0 +1,337 @@
+# Translation of Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-11 07:25:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Converter for Media &#8211; Optimize images | Convert WebP &amp; AVIF - Stable (latest release)\n"
+
+#: templates/components/fields/image_size.php:41
+msgid "Max. height:"
+msgstr "Hauteur max. :"
+
+#: templates/components/fields/image_size.php:28
+msgid "Max. width:"
+msgstr "Largeur max. :"
+
+#: src/Settings/Option/ImageResizeOption.php:55
+msgid "Resize large images to maximum dimensions in pixels during image conversion, keeping the original aspect ratio"
+msgstr "Redimensionnez les grandes images aux dimensions maximales en pixels pendant la conversion d’image, en conservant la proportion de taille originale."
+
+#: src/Settings/Option/ImageResizeOption.php:48
+msgid "Maximum image dimensions"
+msgstr "Dimensions maximales des images"
+
+#. translators: %1$s: images count
+#: src/Service/WpCliManager.php:64
+msgid "%1$s for AVIF and %2$s for WebP"
+msgstr "%1$s pour AVIF et %2$s pour WebP"
+
+#. translators: %s images count
+#: src/Service/WpCliManager.php:143
+#: templates/components/widgets/regenerate.php:162
+msgid "Successfully converted files: %s"
+msgstr "Fichiers convertis avec succès : %s"
+
+#. translators: %s images count
+#: src/Service/WpCliManager.php:150
+#: templates/components/widgets/regenerate.php:170
+msgid "Failed or skipped file conversion attempts: %s"
+msgstr "Tentatives de conversion de fichiers échouées ou ignorées : %s"
+
+#: templates/components/widgets/about.php:33
+msgid "Find out more"
+msgstr "En savoir plus"
+
+#. translators: %s: file extension
+#: src/Settings/Option/SupportedExtensionsOption.php:59
+msgid "%s (converting to AVIF only)"
+msgstr "%s (conversion vers AVIF uniquement)"
+
+#: src/Settings/Option/SupportedExtensionsOption.php:44
+msgid "Files from supported directories that will be converted to output formats."
+msgstr "Fichiers des répertoires pris en charge qui seront convertis aux formats de sortie."
+
+#: templates/components/notices/clear-cache.php:42
+msgid "Done"
+msgstr "Fait"
+
+#. translators: %1$s: button label
+#: src/Notice/CloudflareNotice.php:86 src/Notice/LitespeedNotice.php:96
+#: src/Notice/LitespeedNotice.php:106 src/Notice/LitespeedNotice.php:120
+msgid "Click %1$s."
+msgstr "Cliquez sur %1$s."
+
+#. translators: %1$s: button label
+#: src/Notice/CloudflareNotice.php:97
+msgid "If you agree, click %1$s."
+msgstr "Si vous êtes d’accord, cliquez sur %1$s."
+
+#. translators: %1$s: section label, %2$s: button label
+#: src/Notice/CloudflareNotice.php:91
+msgid "Under %1$s, click %2$s. A warning window appears."
+msgstr "Sous %1$s, cliquez sur %2$s. Une fenêtre d’avertissement apparait."
+
+#. translators: %1$s: service name
+#: templates/components/notices/clear-cache.php:25
+msgid "You are using %1$s, right? Please follow the steps below for the plugin to function properly:"
+msgstr "Vous utilisez %1$s, n’est-ce pas ? Veuillez suivre les étapes ci-dessous pour que l’extension fonctionne correctement :"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:105 src/Settings/Option/ConversionMethodOption.php:71
+#: src/Settings/Option/ImageResizeOption.php:89
+#: src/Settings/Option/OutputFormatsOption.php:79
+msgid "%1$sUpgrade to PRO%2$s"
+msgstr "%1$sPassez à la version PRO%2$s"
+
+#. translators: %1$s: images count
+#: src/Conversion/Cron/CronStatusViewer.php:71
+msgid "Converting images (%s) is in progress."
+msgstr "La conversion des images (%s) est en cours."
+
+#: src/Service/DeactivationModalGenerator.php:95
+msgid "Images are not displayed in WebP format"
+msgstr "Les images ne s’affichent pas au format WebP"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Service/DeactivationModalGenerator.php:83
+msgid "If your server does not meet the technical requirements, you can use \"Remote server\" as \"Conversion method\", in %1$sthe plugin settings%2$s."
+msgstr "Si votre serveur ne répond pas aux exigences techniques, vous pouvez utiliser « Serveur distant » comme « Méthode de conversion », dans %1$sles réglages de l’extension%2$s."
+
+#: templates/components/notices/thanks.php:33
+msgid "Add plugin review"
+msgstr "Ajouter un avis sur l’extension"
+
+#: templates/components/notices/thanks.php:24
+msgid "We are glad that you are using our plugin and we hope you are satisfied with it. If you want, you can support us in the development of the plugin by adding a plugin review. This is very important and gives us the opportunity to create even better tools for you. Thank you to everyone."
+msgstr "Nous sommes ravis que vous utilisiez notre extension et nous espérons que vous en êtes satisfait. Si vous le souhaitez, vous pouvez nous soutenir dans son développement en nous offrant un café et en ajoutant un avis sur l’extension. C’est très important et nous donne l’opportunité de créer des outils encore meilleurs pour vous. Merci à tous."
+
+#. translators: %1$s: loader name
+#: src/Error/Notice/PassthruNotWorkingNotice.php:26
+msgid "%1$s loading mode is not compatible with your server. Sorry for the inconvenience."
+msgstr "Le mode de chargement %1$s n’est pas compatible avec votre serveur. Nous nous excusons pour ce désagrément."
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag
+#: src/Error/Notice/RewritesNotWorkingNotice.php:26
+msgid "Redirects on your server are not working. Check the correct configuration for you in %1$sthe plugin FAQ%2$s. If you have checked the configuration, it means that your server does not support redirects from the .htaccess file or your server configuration is not compatible with this plugin."
+msgstr "Les redirections sur votre serveur ne fonctionnent pas. Vérifiez la configuration correcte pour vous dans la %1$sFAQ de l’extension%2$s. Si vous avez vérifié la configuration, cela signifie que votre serveur ne prend pas en charge les redirections à partir du fichier .htaccess ou que la configuration de votre serveur n’est pas compatible avec cette extension."
+
+#: templates/components/notices/thanks.php:38
+#: templates/components/notices/upgrade.php:38
+msgid "Hide, do not show again"
+msgstr "Masquer, ne plus afficher à nouveau"
+
+#: src/Error/Notice/PassthruExecutionNotice.php:33
+#: src/Error/Notice/RewritesCachedNotice.php:25
+#: src/Error/Notice/RewritesNotExecutedNotice.php:51
+#: src/Error/Notice/RewritesNotWorkingNotice.php:30
+msgid "In this case, please contact your server administrator."
+msgstr "Dans ce cas, veuillez contacter votre administrateur de serveur ou hébergeur web."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:84
+msgid "%1$sSettings%2$s"
+msgstr "%1$sRéglages%2$s"
+
+#: src/Settings/Option/LoaderTypeOption.php:71
+msgid "via .htaccess"
+msgstr "via .htaccess"
+
+#: src/Settings/Option/LoaderTypeOption.php:40
+msgid "Image loading mode"
+msgstr "Mode de chargement d’image"
+
+#: src/Settings/Option/LoaderTypeOption.php:50
+msgid "By changing image loading mode it allows you to bypass some server configuration problems."
+msgstr "Modifier le mode de chargement d’image permet de contourner certains problèmes de configuration du serveur."
+
+#: templates/components/widgets/regenerate.php:180
+msgid "Please flush cache if you use caching plugin or caching via hosting."
+msgstr "Veuillez vider le cache si vous utilisez une extension de cache ou un cache sur l’hébergement."
+
+#: templates/components/widgets/about.php:24
+msgid "The plugin in default loading mode (via .htaccess) does not change file URLs, so there are no problems with saving the page to the cache and the page generation time does not increase."
+msgstr "Avec le mode de chargement par défaut (via .htaccess) l’extension ne change pas les URL des fichiers, il n’y a donc pas de problème avec l’enregistrement de la page dans le cache et le temps de génération de la page n’augmente pas."
+
+#: src/Service/DeactivationModalGenerator.php:62
+msgid "Skip and Deactivate"
+msgstr "Passer et désactiver"
+
+#: src/Service/DeactivationModalGenerator.php:61
+msgid "Submit and Deactivate"
+msgstr "Envoyer et désactiver"
+
+#: src/Service/DeactivationModalGenerator.php:150
+msgid "Other reason"
+msgstr "Autre raison"
+
+#: src/Service/DeactivationModalGenerator.php:141
+msgid "This is a temporary deactivation"
+msgstr "C’est une désactivation temporaire"
+
+#: src/Service/DeactivationModalGenerator.php:132
+msgid "I found a better plugin"
+msgstr "J’ai trouvé une meilleure extension"
+
+#: src/Service/DeactivationModalGenerator.php:111
+msgid "This plugin broke my website"
+msgstr "L’extension a cassé mon site"
+
+#: src/Service/DeactivationModalGenerator.php:88
+msgid "What is your error? Have you been looking for solution to this issue?"
+msgstr "Quelle est l’erreur ? Avez-vous cherché une solution à ce problème ?"
+
+#: src/Service/DeactivationModalGenerator.php:71
+msgid "I have \"Server configuration error\" in plugin settings"
+msgstr "J’ai une « erreur de configuration du serveur » dans les réglages de l’extension"
+
+#: src/Service/DeactivationModalGenerator.php:152
+msgid "What is reason? What can we improve for you?"
+msgstr "Quelle en est la raison ? Que pouvons-nous améliorer pour vous ?"
+
+#: src/Service/DeactivationModalGenerator.php:134
+msgid "What is name of this plugin? Why is it better?"
+msgstr "Quel est le nom de cette extension ? Pourquoi est-elle meilleure ?"
+
+#: src/Service/DeactivationModalGenerator.php:125
+msgid "What exactly happened?"
+msgstr "Qu’est-il arrivé exactement ?"
+
+#: templates/components/widgets/regenerate.php:198
+msgid "Additional informations about process:"
+msgstr "Informations supplémentaires sur le processus :"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:52
+msgid "Options allow you to enable new functionalities that will increase capabilities of plugin"
+msgstr "Ces options vous permettent d’activer de nouvelles fonctionnalités qui augmenteront les capacités de l’extension."
+
+#: templates/components/widgets/errors.php:15
+msgid "Server configuration error"
+msgstr "Erreur de configuration du serveur"
+
+#: src/Settings/Option/ConversionMethodOption.php:57
+msgid "Conversion method"
+msgstr "Méthode de conversion"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:70
+msgid "%s (recommended)"
+msgstr "%s (recommandé)"
+
+#: src/Service/DeactivationModalGenerator.php:118
+#: src/Settings/Option/ExtraFeaturesOption.php:45
+msgid "Extra features"
+msgstr "Fonctions supplémentaires"
+
+#: templates/components/widgets/options.php:44
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#. translators: %s progress value
+#: src/Service/WpCliManager.php:135
+#: templates/components/widgets/regenerate.php:154
+msgid "Saving the weight of your images: %s"
+msgstr "Poids sauvegardé de vos images : %s"
+
+#: src/Service/WpCliManager.php:128
+#: templates/components/widgets/regenerate.php:179
+msgid "The process was completed successfully. Your images have been converted!"
+msgstr "Le processus s’est bien passé. Vos images ont été converties !"
+
+#: templates/components/widgets/regenerate.php:22
+msgid "An error occurred while connecting to REST API. Please try again."
+msgstr "Une erreur s’est produite lors de la connexion à l’API REST. Veuillez réessayer."
+
+#: templates/components/widgets/support.php:13
+msgid "We are waiting for your message"
+msgstr "Nous attendons votre message"
+
+#: templates/views/settings.php:46
+msgid "Changes were successfully saved!"
+msgstr "Les modifications ont bien été enregistrées !"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:75
+msgid "%s (without rewrites in .htaccess files or Nginx configuration)"
+msgstr "%s (sans réécriture dans les fichiers .htaccess ou la configuration Nginx)"
+
+#. translators: %s: anchor tag
+#: src/Error/Notice/PassthruExecutionNotice.php:29
+msgid "Execution of the PHP file from path \"%s\" is blocked on your server, or access to this file is blocked. Add an exception and enable this file to be executed via HTTP request. To do this, check the security plugin settings (if you are using) or the security settings of your server."
+msgstr "L’exécution du fichier PHP depuis « %s » est bloquée sur le serveur, ou l’accès à ce fichier est bloqué. Ajoutez une exception et activez l’exécution de ce fichier via une requête HTTP. Pour ce faire, vérifiez les réglages de l’extension de sécurité (si vous en utilisez une) ou les réglages de sécurité du serveur. %s Dans ce cas, veuillez contacter l’administrateur ou l’administratrice de votre serveur."
+
+#. translators: %1$s: anchor tag, %2$s: anchor tag, %3$s: anchor tag
+#: src/Error/Notice/RestApiDisabledNotice.php:26
+msgid "The REST API on your website is not available. Please verify this and try again. Pay special attention to the filters: %1$s, %2$s and %3$s."
+msgstr "L’API REST n’est pas disponible sur votre site. Veuillez vérifier ceci et essayez à nouveau. Faites particulièrement attention aux filtres : %1$s, %2$s and %3$s."
+
+#: templates/components/widgets/options-sidebar.php:51
+msgid "Deactivate Token"
+msgstr "Désactiver le jeton"
+
+#: templates/components/widgets/options-sidebar.php:47
+msgid "Activate Token"
+msgstr "Activer le jeton"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:62
+msgid "Automatic removal of files in output formats larger than original"
+msgstr "Suppression automatique des fichiers dans les formats de sortie plus grands que l’original"
+
+#: src/Settings/Option/ConversionMethodOption.php:65
+msgid "The Remote server allows you to reduce the server load, because your images are converted by our server. This option is also useful when the server does not meet all of the plugin's technical requirements."
+msgstr "Le serveur distant vous autorise à réduire la charge du serveur, car vos images sont converties par notre serveur. Cette option est également utile lorsque le serveur ne répond pas à tous les prérequis techniques de l’extension."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Settings/Option/AccessTokenOption.php:58
+msgid "To manage your subscriptions, please visit %1$sour website%2$s."
+msgstr "Pour gérer vos abonnements, veuillez vous rendre sur %1$snotre site%2$s."
+
+#: src/Settings/Option/AccessTokenOption.php:48
+msgid "Access Token"
+msgstr "Jeton d’accès"
+
+#: src/Error/Notice/WebpRequiredNotice.php:24
+msgid "WebP as the output format is required. In the \"Output formats\" option, select the WebP format."
+msgstr "WebP comme format de sortie est obligatoire. Dans l’option « Formats de sortie », sélectionnez le format WebP."
+
+#: src/Error/Notice/SettingsIncorrectNotice.php:24
+msgid "The plugin settings are incorrect! Check them out and save them again. Please remember that you must have at least one option selected for each field."
+msgstr "Les réglages de l’extension sont incorrects ! Vérifiez-les et enregistrez-les à nouveau. N’oubliez pas que vous devez avoir sélectionné au moins une option pour chaque champ."
+
+#: src/Conversion/Method/RemoteMethod.php:87
+#: src/Conversion/Method/RemoteMethod.php:92
+msgid "Remote server"
+msgstr "Serveur distant"
+
+#: templates/views/settings.php:42
+msgid "The access token has been activated!"
+msgstr "Le jeton d’accès a été activé !"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: templates/components/widgets/regenerate.php:186
+msgid "Do you want to know how a plugin works and how to check if it is working properly? Read %1$sour manual%2$s."
+msgstr "Voulez-vous savoir comment fonctionne l’extension et comment vérifier si elle fonctionne correctement ? Lisez %1$snotre manuel%2$s."
+
+#: src/Error/Notice/AccessTokenInvalidNotice.php:24
+msgid "Your access token is invalid or your subscription has expired. Check the value given in and try to activate it again."
+msgstr "Votre jeton d’accès est invalide ou votre abonnement a expiré. Vérifiez la valeur indiquée et réessayez de l’activer."
+
+#. translators: %1$s: filter name, %2$s: server path
+#: src/Error/Notice/PathWebpDuplicatedNotice.php:26
+msgid "The paths for /uploads files and for saving converted WebP files are the same. Change them using filter %1$s. The current path for them is: %2$s."
+msgstr "Les chemins pour les fichiers téléversés et pour l’enregistrement des fichiers WebP convertis sont les mêmes. Modifiez-les grâce au filtre %1$s. Le chemin actuel est : %2$s."
+
+#: src/Settings/Option/SupportedDirectoriesOption.php:46
+msgid "Files from these directories will be converted to output formats."
+msgstr "Les fichiers de ces répertoires seront convertis aux formats de sortie."
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag, %3$s: errors
+#. codes
+#: templates/components/widgets/errors.php:32
+msgid "%1$sError codes:%2$s %3$s"
+msgstr "%1$sCodes d’erreur : %2$s %3$s"
